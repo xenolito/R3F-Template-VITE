@@ -1,0 +1,15 @@
+#project dependencies
+*.code-workspace
+node_modules
+public/fonts
+build
+dist
+
+#OSX hidden folders
+.DS_Store
+#temp files
+*.tmp
+*-
+
+
+
