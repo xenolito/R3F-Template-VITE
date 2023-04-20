@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react'
 
-const isCodeSandbox = !!process.env.SANDBOX_URL
+const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env
 
 export default {
     plugins:
